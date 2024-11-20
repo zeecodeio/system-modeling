@@ -1,5 +1,7 @@
 # FURPS+
 
+> [System Modeling](README.md)
+
 - Functionality
 - Usability
 - Reliability
@@ -11,27 +13,24 @@ The "+" in FURPS+ also helps us to remember requirements such as:
 - Implementation requirements
 - Interface requirements
 - Physical requirements 
-
-
 ## Functionality
-The Functionality category of the FURPS+ classification gathers all functional requirements. These requirements generally
-represent the main product features. In a warehouse application, we might have requirements pertaining to "Order Processing" or
-"Stock Control". However, functional requirements are not always domain-specific. For example, providing printing capability is a
-functional requirement of particular significance to architecture. The remaining "URPS" categories are used to describe nonfunctional requirements, which are also generally of architectural significance.
+The Functionality category of the FURPS+ classification gathers all functional requirements. These requirements generally represent the main product features. In a warehouse application, we might have requirements pertaining to "Order Processing" or "Stock Control". 
+
+However, functional requirements are not always domain-specific. For example, providing printing capability is a functional requirement of particular significance to architecture. The remaining "URPS" categories are used to describe nonfunctional requirements, which are also generally of architectural significance.
 ## Usability
 Usability is concerned with characteristics such as aesthetics and consistency in the user interface.
 
 - Accessibility (e.g. the system supports IE, Chrome browsers)
 - Consistency (e.g. all error messages look the same throughout the system)
 - Navigation rules (e.g. it concerns the support of using the keyboard, mouse or keyboard shortcuts)
-Training time (e.g. the training of new users will take 2 days or 8 hours)
-Usability standards (e.g. the usability solution will be in line with company policy/standards)
+- Training time (e.g. the training of new users will take 2 days or 8 hours)
+- Usability standards (e.g. the usability solution will be in line with company policy/standards)
 
-| **Usability Requirement** | **Description**                                                                               |
-|----------------------------|-----------------------------------------------------------------------------------------------|
-| **Accessibility**          | The ease with which different facets of the system are exercised.                            |
-| **Aesthetics**             | The aesthetic quality of the user interface.                                                 |
-| **Consistency**            | The consistent use of mechanisms employed in the user interface, both within the system and with other systems. |
+| **Usability Requirement**  | **Description**                                                                                                |
+|----------------------------|----------------------------------------------------------------------------------------------------------------|
+| **Accessibility**          | The ease with which different facets of the system are exercised.                                              |
+| **Aesthetics**             | The aesthetic quality of the user interface.                                                                   |
+| **Consistency**            | The consistent use of mechanisms employed in the user interface, both within the system and with other systems.|
 
 **Architectural Requirement Questionnaire**
 
@@ -45,11 +44,12 @@ Usability standards (e.g. the usability solution will be in line with company po
 ## Reliability
 Reliability is concerned with characteristics such as availability (the amount of "up time" of the system), accuracy of calculations
 performed and recoverability of the system from failure.
-| **Requirement**    | **Description**                                                 |
-|---------------------|-----------------------------------------------------------------|
-| **Accuracy**        | The accuracy of any calculations performed.                    |
-| **Availability**    | The amount of "up time" of the system.                         |
-| **Recoverability**  | The elegance with which the system recovers from failure.      |
+
+| **Requirement**    | **Description**                                           |
+| ------------------ | --------------------------------------------------------- |
+| **Accuracy**       | The accuracy of any calculations performed.               |
+| **Availability**   | The amount of "up time" of the system. Uptime, MTBF, MTTR |
+| **Recoverability** | The elegance with which the system recovers from failure. |
 
 **Architectural Requirement Questionnaire**
 
@@ -68,21 +68,20 @@ Performance is concerned with characteristics such as throughput, response time,
 - Response time (e.g. the system must respond in a maximum of 2 seconds, the maximum login time cannot be longer than 1 second)
 - Scalability (e.g. that the system must automatically scale)
 
-| **Performance Requirement** | **Description**                                              |
-|------------------------------|--------------------------------------------------------------|
-| **Recovery Time**            | The time to recover from a system failure.                  |
-| **Response Time**            | The time for the system to provide a response.              |
-| **Shutdown Time**            | The time for the system to shutdown.                        |
-| **Start-up Time**            | The time for the system to start up.                        |
-| **Throughput**               | The capacity of the system to support a given flow of information. |
+| **Performance Requirement**  | **Description**                                                                                                                              |
+|------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
+| **Response Time**            | The time for the system to provide a response.                                                                                               |
+| **Processing speed**         |                                                                                                                                              |
+| **Latency**                  | Latency is a time delay between the cause and the effect of some physical change in the system being observed                                |
+| **Channel capacity**         | Channel capacity is the tightest upper bound on the rate of information that can be reliably transmitted over a communications channel.      |
+| **Start-up Time**            | The time for the system to start up.                                                                                                         |
+| **Throughput**               | The capacity of the system to support a given flow of information, is the rate of production or the rate at which something can be processed.|                                            |
 
 **Architectural Requirement Questionnaire**
 
 | **Requirement**    | **Questions**                                                                                     | **Impact**                                                                                  |
 |---------------------|--------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------|
-| **Recovery Time**   | - Are there any requirements on the time taken to recover from a system failure?                 | The shorter the recovery time, the more sophisticated the recovery mechanism and the longer the time to market. |
 | **Response Time**   | - Are there any constraints on the time taken for the system to respond to particular events, such as user interaction? | The shorter the response time, the longer the time to market.                              |
-| **Shutdown Time**   | - Are there any requirements on the time taken to shutdown the system?                           | The shorter the shutdown time, the more sophisticated the shutdown mechanism and the longer the time to market. |
 | **Start-up Time**   | - Are there any requirements on the time taken to start the system?                              | The shorter the start-up time, the more sophisticated the start-up mechanism and the longer the time to market. |
 | **Throughput**      | - Are there any special requirements regarding throughput of data supported by the system?       | The greater the throughput of data, the longer the time to market.                          |
 
@@ -92,7 +91,7 @@ Supportability is concerned with characteristics such as:
 
 - testability, 
 - adaptability, 
-- maintainability, 
+- **maintainability**, 
 - compatibility, 
 - configurability,
 - installability, 
