@@ -169,88 +169,13 @@ People around the mediators constraints the system based on Conway's Law. The me
       - apache camel, spring integration, mule
   - deployment manager
 
-## Microservices Architecture
-
-- Distributed
-  - Sync
-    - REST
-    - RPC
-    - HTTP
-    - SOAP
-  - Async
-    - Messaging
-    - Event Queues
-  - protocol-aware heterogeneus interoperability
-  - functional service
-  - infrastructure services
-    - monitoring, logging
-    - autorization, authentications
-  - communication is point-to-point
-  - api layer is optional
-  - service component
-    - service template
-      - logging
-      - monitoring
-      - dropwizard.io
-      - spring boot
-      - coupling is bad
-        - duplication is preferred to coupling
-        - code that converts from JSON to XML is a code you want to share and a good example for a service template
-      - authentication and authorization is another example
-  - what's the right size of a microservice?
-    - what's the purpose of the service?
-    - **transaction scope**, boundary, and context
-      - business cases
-      - we need a distributed transaction?
-        - distributed transactions and rollbacks are hard
-      - choreography
-        - we need to coordinate with other services?
-  - microservices is a label, is not a description
-  - service scope and function
-    - single-purpose function
-    - purpose
-  - business process
-    - natural partitions in your system
-    - customer is not a boundary context
-    - catalog checkout is a boundary context
-      - may include some customer information
-    - order management is a boundary context
-      - may include some customer information
-    - payment is a boundary context
-      - may include some customer information
-  - service orchestration
-    - no mediator
-    - front orchestrator
-      - fire and forget
-      - request response
-      - fire and wait
-      - update customer sends request to process quotes and wait for response
-      - event queue
-        - large data
-        - more async behavior
-        - no certainty
-        - let the ending process consumes the messages and gather all the data
-        - or let the ending process be the update customer process(the front orchestrator)
-        - update customer sends request to process quotes and wait for response
-        - message queue
-          - update customer sends request to process quotes and wait for response
-
-![Microservices Architecture](assets/images/microservices-architecture.png)
-
-
-![Microservices Elements](assets/images/microservices-elements.png)
-
-
-![Microservice Front Orchestrator](assets/images/front-orchestrator.png)
-![alt text](assets/images/request-response.png)
-
-![alt text](assets/images/ms-event-message.png)
 
 
 
-![Microservice SO to FT Orchestrator](assets/images/ms-so-to-ft-orchestrator.png)
 
-![alt text](assets/images/ms-so-to-backend-process.png)
+
+
+
 
 
 
