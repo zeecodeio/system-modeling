@@ -38,7 +38,7 @@ Describe the personas that will interact with the solution, their problems, what
 
 ## 3. User Journeys
 
-A **User Journey** describes the end-to-end experience of a user interacting with the system. It helps visualize the flow of actions users take to achieve their goals, highlighting pain points, key interactions, and moments of delight.
+[**User Journey**](./User-Journey.md) describes the end-to-end experience of a user interacting with the system. It helps visualize the flow of actions users take to achieve their goals, highlighting pain points, key interactions, and moments of delight.
 
 ## 4. Architectural Specification of the Solution
 
@@ -79,7 +79,7 @@ Non-Functional Requirements: Include all non-functional requirements deemed nece
 
 F**URPS+**
 
-Usuability, Reliability, Performance, Security
+Usuability, Reliability, Performance, Security, +
 
 | ID    | Summarized Description | Priority |
 | ----- | ---------------------- | -------- |
