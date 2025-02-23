@@ -44,3 +44,6 @@ This diagram presents how and where the artifacts are deployed over the underlin
 > You may also want to include infrastructure nodes such as DNS services, load balancers, firewalls, etc.
 > Feel free to use icons provided by Amazon Web Services, Azure, etc to complement your deployment diagrams … just make sure any icons you use are included in your diagram key/legend.
 > C4 Model
+
+
+## 4+1 architectural view model
