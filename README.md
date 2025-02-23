@@ -1,5 +1,17 @@
 # System Modeling
 
+Open to changes and collaborations; WIP
+
+## References
+
+- PUC Minas - Arquitetura de Software Distribuido | Distributed Software Architecture
+- Neal Ford
+- Mark Richards
+- Simon Brown
+- Chris Richardson
+- ChatGPT and Claude.ai(reviewed but still may have some hallucinations)
+- ...
+
 ## 1. Introduction
 
 Work Contextualization: Describe the project, its area or context, and the problem it aims to solve, including its motivation.
