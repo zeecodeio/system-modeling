@@ -9,7 +9,9 @@ Open to changes and collaborations; WIP
 - Mark Richards
 - Simon Brown
 - Chris Richardson
-- ChatGPT and Claude.ai(reviewed but still may have some hallucinations)
+- Fábio Aguiar
+- Paulo Caroli
+- ChatGPT and Claude.ai(reviewed but still may have some hallucinations (⌒_⌒;))
 - ...
 
 ## 1. Introduction
