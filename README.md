@@ -38,6 +38,8 @@ Describe the personas that will interact with the solution, their problems, what
 
 ## 3. User Journeys
 
+A **User Journey** describes the end-to-end experience of a user interacting with the system. It helps visualize the flow of actions users take to achieve their goals, highlighting pain points, key interactions, and moments of delight.
+
 ## 4. Architectural Specification of the Solution
 
 This section presents the basic specification of the solution's architecture, including diagrams, constraints, and requirements defined by the author. This allows for a clear visualization of the solution's architecture.
@@ -127,55 +129,20 @@ Specify the products or tools to be used in the solution, assuming it were to be
 
 ## 5. System Architecture
 
-### System Context
 
-Context Diagram: Present a high-level diagram (macroarchitecture) of the application following the C4 model. This diagram does not necessarily need to adhere to the Unified Modeling Language (UML). Still, it should provide a complete and clear view of the macro architectural components, their functions, and interfaces.
 
-### System Containers
-
-Container Diagram: Present a diagram of repositories (containers) and their components. This can be seen as a detailed version of the context diagram but can differ from UML standards.
-
-### System Components
-
-Component Diagram: Preferably follow the UML standard. This diagram typically presents the architectural components and their relationships, enabling a comprehensive understanding of the proposed architectural structure.
-
-### Dynamic View
-
-### Deployment View
 
 ### Create a Utility Tree
 
+A [**Utility Tree**](./Utility-Tree.md) is a hierarchical structure that captures the system's key **quality attributes** (e.g., performance, security, scalability) and breaks them down into measurable scenarios.
+
 ### Document Initial ADRs
+
+[**Architectural Decision Records (ADRs)**](./ADR.md) document key decisions made about system design, ensuring historical context and rationale are preserved.
 
 ## 6. Architectural Analysis
 
-### Step 1: Analysis of Architectural Approaches
-
-**Analysis of Architectural Approaches:** This section structures the application's evaluation using the ATAM (Architecture Tradeoff Analysis Method).
-
-| Quality Attributes | Scenarios | Importance | Complexity |
-| ------------------ | --------- | ---------- | ---------- |
-| Performance        |           |            |            |
-| Usability          |           |            |            |
-| Reliability        |           |            |            |
-| ...                |           |            |            |
-
-### Step 2: Scenarios
-
-**Scenarios:** Establish the scenarios to be evaluated as per the ATAM method.
-
-
-### Step 3: Evaluation Evidence
-
-- **Evaluation Evidence:** Present evidence (textual and/or visual) demonstrating how the application meets the scenarios under evaluation based on the ATAM method.
-
-### Step 4: Critical Evaluation of Results
-
-- **Critical Evaluation of Results:** Provide a critical assessment, reflecting on lessons learned, challenges encountered, and the pros and cons. Compare the outcomes with the intended goals to assess what was achieved and what was not, in terms of objectives.
-
-### Step 5: Conclusion
-
-- **Conclusion:** Write a conclusion that wraps up the work while leaving possibilities open for its future continuation.
+[**Architectural Analysis**](./Architectural-Analysis.md) is the process of evaluating software architectures to ensure they meet business and technical requirements. Various methodologies exist to analyze trade-offs, assess risks, and determine how well the system meets its quality attributes.
 
 
 ## Links
