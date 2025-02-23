@@ -146,8 +146,6 @@ People around the mediators constraints the system based on Conway's Law. The me
     - functional programming
     - data flow
 
-![](assets/images/pipeline-example.png)
-
 ## Space-Based Architecture
 
 - processing unit

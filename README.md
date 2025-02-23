@@ -102,9 +102,17 @@ List the general aspects that compose the software architecture, including:
 - **Exception Handling**: Strategies for managing errors and failures.
 - **Testing Format**: Approach and structure for software testing.
 - **Deployment Format**: Distribution and deployment methods for the solution.
+- **Code Collaboration and Integration**
+- **Infrastructure Provisioning**
+- **Disaster Recovery**
+- **Lead Time**
+- **Delivery Throughput**
+- **Observability**
 
 #### 2. Design
 Identify the technological patterns to follow for each mechanism identified in the **Analysis** phase.
+
+
 
 #### 3. Implementation
 Specify the products or tools to be used in the solution, assuming it were to be implemented.

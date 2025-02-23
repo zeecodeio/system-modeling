@@ -9,7 +9,6 @@
 - Event Driven
 - Reporting
 
-![Microservices Architecture](../assets/images/microservices-architecture.png)
 *Microservices Architecture*
 
 ## Distributed Communication
@@ -41,7 +40,7 @@
 - automated deployments
 - elastic scale
 
-**![Microservices Elements](../assets/images/microservices-elements.png)
+
 *Microservices Elements***
 
 ## Service Components
@@ -97,7 +96,7 @@
 
 ### Front Orchestrator
 
-![Microservice Front Orchestrator](../assets/images/front-orchestrator.png)
+
 *Front Orchestrator*
 
 - fire and wait?
@@ -105,7 +104,7 @@
 
 ### Fire and Forget - Request Response
 
-![alt text](../assets/images/request-response.png)
+
 *Request Response*
 
 - request response
@@ -123,13 +122,12 @@
   - message queue
   - update customer sends request to process quotes and wait for response
 
-![Event Queue](../assets/images/ms-event-message.png)
 *Event Queue*
 
-![Microservice SO to FT Orchestrator](../assets/images/ms-so-to-ft-orchestrator.png)
+
 *Service Orchestrator to Front Orchestrator*
 
-![alt text](../assets/images/ms-so-to-backend-process.png)
+
 *Service Orchestrator to Backend Process*
 
 ## Data Domains
@@ -149,7 +147,7 @@
 - reduces data duplication
 - increases performance and reliability as transactions between services are reduced
 
-![Data Domain](../assets/images/data-domain.png)
+
 *Data Domain*
 
 ## API Layer
@@ -165,13 +163,13 @@
 - different APIs for different clients
 - backend for frontend
 
-![API Layer](../assets/images/api-layer.png)
+
 *API Layer*
 
-![API Layer - Backend for Frontend](../assets/images/api-layer-2.png)
+
 *API Layer - Backend for Frontend*
 
-![API Layer - User Interface Layer](../assets/images/user-interface-layer.png)
+
 *API Layer - User Interface Layer*
 
 ### Proxies
