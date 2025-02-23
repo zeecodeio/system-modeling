@@ -75,7 +75,7 @@ List all the functional requirements planned for your application. Include all t
 Functional Requirements: List and briefly describe the application's functional requirements, prioritizing them. If necessary, organize the requirements by modules.
 Note: This document does not require an exhaustive and detailed description of the requirements. A summarized description with numbered items for better identification is sufficient.
 
-**F**URPS+
+[**F**URPS+](./Architectural-Requirements.md)
 
 Functionality
 
@@ -91,7 +91,7 @@ List all the non-functional requirements planned for your application. Include a
 
 Non-Functional Requirements: Include all non-functional requirements deemed necessary from an architectural perspective, particularly those impacting the solution proposal.
 
-F**URPS+**
+[F**URPS+**](./Architectural-Requirements.md)
 
 Usuability, Reliability, Performance, Security, +
 
