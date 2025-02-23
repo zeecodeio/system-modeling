@@ -3,7 +3,7 @@
 > [System Modeling](README.md)
                                                  
 
-## List of Mechanisms
+## List of Traditional Mechanisms
 
 | **Analysis Mechanism**     | **Description**                                              |
 |-----------------------------|--------------------------------------------------------------|
@@ -22,28 +22,6 @@
 | **Security**                | A mechanism for meeting the security requirements of the system. |
 | **Transaction Management**  | A mechanism for handling ACID transactions.                 |
 | **Workflow**                | A mechanism for handling workflows within the system.       |
-
-
-## Questions for Mechanisms
-
-
-| **Requirement**           | **Type**                         | **Questions**                                                                                                                                                                                       | **Impact**                                                                                                  |
-|---------------------------|-----------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|
-| **Auditing**              | Functional, Supportability, Design | - Is audit capability required? <br> - What level of auditing is needed? <br> - Are there any constraints on the mechanism used to provide audit capability?                                        | The greater the sophistication of the audit mechanism, the longer the time to market, and the higher long-term maintenance costs. |
-| **Authentication**        | Functional, Design               | - Is there any requirement for authentication? <br> - Are there any constraints on the mechanism used to provide authentication capability?                                                       | The greater the sophistication of the authentication mechanism, the longer the time to market, and the higher long-term maintenance costs. |
-| **Communication**         | Functional, Design               | - Is it anticipated that inter-process communication will be required? <br> - Are there any constraints on the mechanism used to provide communication capability?                                 | The greater the sophistication of the communication mechanism, the longer the time to market, and the higher long-term maintenance costs. |
-| **Error Management**      | Design                           | - Are there any constraints on the mechanism used to provide error management capability?                                                                                                         | The greater the sophistication of the error management mechanism, the longer the time to market, and the higher long-term maintenance costs. |
-| **Event Management**      | Design                           | - Are there any constraints on the mechanism used to provide event management capability?                                                                                                         | The greater the sophistication of the event management mechanism, the longer the time to market, and the higher long-term maintenance costs. |
-| **Licensing**             | Functional, Design               | - Will the system, or parts of the system, be licensed? <br> - Are there any constraints on the mechanism used to provide licensing capability?                                                    | The greater the sophistication of the licensing mechanism, the longer the time to market, and the higher long-term maintenance costs. |
-| **Localisation**          | Functional, Supportability, Design | - Does the system need to support multiple human languages? <br> - Which human languages need to be supported? <br> - Are there any constraints on the mechanism used to provide localisation capability? | The greater the sophistication of the localisation mechanism, the longer the time to market, and the higher long-term maintenance costs. |
-| **Online Help**           | Functional, Design               | - Will online help be required? <br> - Are there any constraints on the mechanism used to provide online help?                                                                                    | The greater the sophistication of the online help mechanism, the longer the time to market, and the higher long-term maintenance costs. |
-| **Persistence**           | Functional, Design               | - Is it anticipated that data manipulated by the system will be written to disk? <br> - Is both shared and user-specific persistent data required? <br> - Are there constraints on the persistence mechanism? | The greater the sophistication of the persistence mechanism, the longer the time to market, and the higher long-term maintenance costs. |
-| **Printing**              | Functional, Design               | - Is printing capability required? <br> - Are there any constraints on the mechanism used to provide printing capability?                                                                          | The greater the sophistication of the printing mechanism, the longer the time to market, and the higher long-term maintenance costs. |
-| **Reporting**             | Functional, Design               | - Is reporting capability required? <br> - Are there any constraints on the mechanism used to provide reporting capability?                                                                       | The greater the sophistication of the reporting mechanism, the longer the time to market, and the higher long-term maintenance costs. |
-| **Scheduling**            | Functional, Design               | - Is it anticipated that certain system actions will need to be scheduled? <br> - Are there any constraints on the mechanism used to provide scheduling capability?                                | The greater the sophistication of the scheduling mechanism, the longer the time to market, and the higher long-term maintenance costs. |
-| **Security**              | Functional, Design               | - Is it anticipated that elements of the system will need to be secure? <br> - Are there any constraints on the mechanism used to provide security capability?                                     | The greater the sophistication of the security mechanism, the longer the time to market, and the higher long-term maintenance costs. |
-| **Transaction Management**| Functional, Design               | - Is it anticipated that transactional capability will be required? <br> - Are there any constraints on the mechanism used to provide transactional capability?                                    | The greater the sophistication of the transaction management mechanism, the longer the time to market, and the higher long-term maintenance costs. |
-| **Workflow**              | Functional, Design               | - Is it anticipated that movement of organizational units of work is required? <br> - Are there any constraints on the mechanism used to provide workflow capability?                              | The greater the sophistication of the workflow mechanism, the longer the time to market, and the higher long-term maintenance costs. |
 
 
 ## Sample Mechanism
@@ -69,7 +47,7 @@
 | **Search**             | Analysis of full-text search and indexing requirements                                                       | Use of inverted indexes or hybrid search strategies                                                             | Implementation with Elasticsearch, Solr, or Azure Cognitive Search                                                 |
 | **DevOps**             | Analysis of software delivery lifecycle requirements                                                         | Design of CI/CD pipelines, infrastructure as code                                                               | Implementation with Terraform, Ansible, or AWS CodePipeline     
 
-
+## **Enhanced Architectural Mechanisms Matrix**
 
 | **Analysis Mechanism**  | **Design Mechanism**  | **Implementation Mechanism**  |
 |-------------------|------------------|-------------------------|
@@ -155,3 +133,7 @@
 | - Failover requirements | - Failover architecture | - Multi-region failover setup |
 | - Fault injection mechanisms | - Chaos Engineering design | - Netflix Chaos Monkey-like setup |
 | - Automated recovery drills | - Failure simulation strategy | - Resilience testing pipeline |
+
+- This matrix **combines traditional architectural mechanisms with modern cloud-native and AI-driven approaches**.
+- It serves as a **holistic reference for system design in 2025**.
+- The categories ensure **security, scalability, observability, and sustainability** are **built into** every architectural decision.

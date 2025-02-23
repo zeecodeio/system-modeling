@@ -170,15 +170,6 @@ People around the mediators constraints the system based on Conway's Law. The me
   - deployment manager
 
 
-
-
-
-
-
-
-
-
-
 ## Monolithic Architecture
 
 ## Broker-Based Architecture
