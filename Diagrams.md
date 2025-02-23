@@ -2,7 +2,7 @@
 
 ## [The C4 model](https://c4model.com/)
 
-See also [likec4](https://likec4.dev/)
+See also [likec4](https://likec4.dev/), [structurizr](https://structurizr.com/), [C4 with Sparx](https://trerado.sparxsystems.com/use-cases/the-c4-model-enhancing-your-software-architecture-documentation/)
 
 ### System Context
 
@@ -47,3 +47,14 @@ This diagram presents how and where the artifacts are deployed over the underlin
 
 
 ## 4+1 architectural view model
+
+It organizes architectural descriptions into five interrelated views to address different stakeholder concerns.
+
+[4+1 view model of architecture](https://medium.com/2b-1-better-2day/4-1-view-model-of-architecture-1a1794ff8110) by [Билигүн.Б (Програмч аав)](https://medium.com/@biligunb)
+
+### The Five Views:
+1. **Logical View** – Represents the functional requirements and major system components (classes, modules, subsystems).
+2. **Development View** – Focuses on the system’s software module organization and version control (source code structure, libraries).
+3. **Process View** – Shows the runtime behavior, concurrency, and communication between processes.
+4. **Physical View** – Maps the software onto hardware infrastructure (deployment nodes, networks, servers).
+5. **Scenarios (Use Case View)** – Connects all other views by describing real-world use cases that illustrate system interactions.

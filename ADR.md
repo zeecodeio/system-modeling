@@ -3,6 +3,10 @@
 
 **Architectural Decision Records (ADRs)** is a document that captures key architecture-related decisions, the context in which they were made, and the consequences of the decision. ADRs help teams maintain a historical record of choices, making it easier to understand past decisions and their rationale.
 
+## ADR Tools
+
+- [adr-tools](https://github.com/npryce/adr-tools)
+
 ## How to Document ADRs?
 Each ADR should follow a standard structure:
 1. **Title** – Concise name of the decision.

@@ -129,7 +129,9 @@ Specify the products or tools to be used in the solution, assuming it were to be
 
 ## 5. System Architecture
 
+### Diagrams
 
+Use 4+1 View and C4 Model [diagrams](./Diagrams.md)
 
 
 ### Create a Utility Tree
